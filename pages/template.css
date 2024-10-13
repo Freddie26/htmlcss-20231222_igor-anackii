@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.page {
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    grid-template-rows: auto 1fr auto;
+}
+
+.page__header {
+    grid-area: header;
+    height: 85px;
+    background: red;
+}
+
+.page__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-area: main;
+}
+
+.page__footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: var(--grey-2);
+    height: 130px
+}
+
+.menu {
+    border: 1px solid teal;
+    width: 450px;
+}
+
+.component {
+    border: 1px solid blue;
+}
