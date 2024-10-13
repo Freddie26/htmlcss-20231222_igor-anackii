@@ -1,0 +1,11 @@
+.main {
+    background-color: #F9FAFC;
+    padding: 56px 0;
+    border: 1px solid red;
+}
+
+.main__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

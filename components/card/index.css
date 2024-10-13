@@ -1,0 +1,22 @@
+.card {
+    width: 350px;
+    height: 367px;
+    border-radius: 12px;
+    background-color: var(--white);
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.card__placeholder {
+
+}
+
+.card__title {
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
